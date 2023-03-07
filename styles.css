@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    /*text-decoration: solid;*/
+    font-weight: bold;
+    /* background: #b1b1b1; */
+    /* overflow: hidden; */
+}
+
+.pembuka {
+    align-items: center;
+}
+
+.isi {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 17px;
+    font-variant: normal;
+    color: black;
+    text-align: left;
+    text-indent: 10px; /*mengatur paragraf diselodkan */
+    text-decoration: none; /*mengatur dekorasi tulisan seperti digaris bawahi atau apa lagi */
+    text-transform: none; /*mengatur jenis huruf nya menjadi kecil semua besar semua atau kapital atau besar diawal */
+}
+
+body {
+    background-color: #1e90ff;
+    /* background-image: url(); */
+    background-position: 17px;
+    background-repeat: repeat-x;
+}
+
+a:hover {
+    color: #ff4757;
+    font-size: 20px;
+}
+
+a:active { 
+    font-style: italic;
+}
+
+/* a:visited { 
+    color:aliceblue;
+} */
+
