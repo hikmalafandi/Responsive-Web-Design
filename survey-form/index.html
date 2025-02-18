@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Name<input id="name" type="text" placeholder="name" required/></label>
+                    <label id="email-label" for="email">Email<input id="email" type="email" placeholder="email" required/></label>
+                    <label id="number-label" for="number">Age (optional)<input id="number" type="number" min="10" max="120" placeholder="age" required/></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Which option best describes you current role?</legend>
+                    <label>
+                        <select id="dropdown">
+                            <option>Select current role</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                    <label for="recommend"><input id="recommend" type="radio" name="recommend" value="recommend" required/>Definitely</label>
+                    <label for="recommend"><input id="recommend" type="radio" name="recommend" value="recommend" required/>Maybe</label>
+                    <label for="recommend"><input id="recommend" type="radio" name="recommend" value="recommend" required/>Sure</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What is your favorite feature of freeCodeCamp?</legend>
+                    <label>
+                        <select>
+                            <option>Select an option</option>
+                            <option>Challenges</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Open Source</option>
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>What would you like to see improved? (Check all that apply)</legend>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Front-End Projects</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Back-End Projects</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Data Visualization</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Challenges</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Open Source Community</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Gitter help rooms</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Videos</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>City Meetups</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Wiki</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Forum</label>
+                    <label for="skill"><input id="skill" type="checkbox" name="skill" value="skill" required/>Additional Courses</label>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="story">Tell about yourself <textarea id="story" placeholder="Tell about yourself"></textarea></label>
+                </fieldset>
+                
+                <button id="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
