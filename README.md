@@ -1,6 +1,6 @@
 # Responsive Web Design
 
-Repository ini berisi berbagai latihan dalam belajar **Responsive Web Design**. Setiap folder dalam repository ini berisi proyek atau latihan yang berbeda.
+Repository ini berisi berbagai latihan dalam belajar **Responsive Web Design**. Setiap folder dalam repository ini berisi proyek atau latihan yang berbeda sebagai bentuk latihan praktik dan recall materi untuk memperkuat pemahaman konsep yang telah dipelajari.
 
 ## Daftar Latihan
 - **Survey Form** (`survey-form/`) - Membuat formulir responsif menggunakan HTML & CSS.
