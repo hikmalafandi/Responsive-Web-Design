@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+#main {
+    background-color: #EEEEEE;
+    margin: 30px 10px 30px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#main header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-div {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#img-div > #image {
+    display: block;
+    margin: auto;
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div > #img-caption {
+    width: 59%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#tribute-info {
+    padding: 20px 50px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+
+#tribute-info h3 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    width: 40%;
+    text-align: justify;
+    margin: 0 auto 50px;
+}
+
+#tribute-info ul li {
+    padding: 5px;
+}
+
+#tribute-info #quote {
+    font-style: italic;
+    margin: auto;
+    display: block;
+}
+
+#tribute-info #quote-johan {
+    font-style: italic;
+}
+
+#tribute-info #additional-bio{
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+#tribute-info #additional-bio #tribute-link {
+    color: #627ca7;
+}
+
